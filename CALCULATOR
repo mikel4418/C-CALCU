@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char operation;
+	float num1,num2;
+	
+		
+			  cout<<" OPTION"<<endl;
+				cout<<" [+] - Addition"<<endl;
+				cout<<" [-] - Subtraction"<<endl;
+				cout<<" [*] - Multiplication"<<endl;
+				cout<<" [/] - Division"<<endl;
+	
+	cout<<"\n\nEnter First Number:";
+	cin>>num1;
+	
+	cout<<"Enter Operator:";
+	cin>>operation;
+	
+	cout<<"Enter Second Number:";
+	cin>>num2;
+	
+	switch(operation)
+	{
+		case '+':
+			cout<<" Answer is :"<<num1+num2;
+		break;
+		
+		case '-':
+			cout<<" Answer is :"<<num1-num2;
+		break;
+		
+		case '*':
+			cout<<" Answer is :"<<num1*num2;
+		break;
+		
+		case '/':
+			cout<<" Answer is :"<<num1/num2;
+		break;
+		
+		default:
+
+
+return 0;
+	
+}
+}
